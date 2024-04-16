@@ -1,24 +1,33 @@
-# Graph-Algorithms
+Graph-Algorithms
 
-Project Description
-In this project you need to implement graph algorithms. You will be building a graph network.
-In addition, you will need to build a profession and title dictionary. After that you will need to
-code and implement test cases for graph algorithms like BFS, DFS, Dijkstra’s and strongly
-connected components. More details about these will be given below. 
+Project Overview
 
-Project Package
-For this project, you will be given a few files that you need to work with. Those files include the
-one dataset files, two skeleton code files, and one python code file to run the test cases. The
-testing python script tells you how many test cases your code passed and failed.
+In this project, the goal is to implement various graph algorithms and build a graph network. Additionally, a profession and title dictionary will be constructed. The implemented algorithms include Breadth-First Search (BFS), Depth-First Search (DFS), Dijkstra’s algorithm, and strongly connected components.
 
-Dataset
-For this project you will be using the imdb_network.csv. The required data is
-extracted and provided as CSV file.
-(1) Imdb_network.csv file
+Project Components
 
-The dataset file includes the following attributes as columns.
-tconst – a unique identifier for each movie
-nconst – a unique identifier for each person
-primaryTitle – popular title that is used for promotions
-primaryName – name by which a person is often credited
-primaryProfession – top 3 professions of a person
+1. Graph Network Implementation: 
+    - Implement a graph network structure capable of representing various types of graphs.
+    
+2. Profession and Title Dictionary:
+    - Build a dictionary that maps professions to titles and vice versa.
+
+3. Graph Algorithms Implementation:
+    - Implement the following graph algorithms:
+        - Breadth-First Search (BFS)
+        - Depth-First Search (DFS)
+        - Dijkstra’s Algorithm
+        - Strongly Connected Components (SCC)
+        
+4. Test Cases:
+    - Develop comprehensive test cases for each implemented algorithm to ensure correctness and efficiency.
+
+Implementation Details
+
+- Graph Network: Utilize appropriate data structures such as adjacency lists or matrices for efficient representation and traversal of graphs.
+- Profession and Title Dictionary: Design a data structure that allows for fast lookup and mapping between professions and titles.
+- Graph Algorithms: Implement each algorithm following standard algorithms and data structures principles.
+- Test Cases: Develop test cases covering various scenarios, including edge cases, to validate the correctness and performance of the implemented algorithms.
+
+
+
